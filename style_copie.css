@@ -51,8 +51,8 @@ nav.navbar {
     padding: 0;
 }
 .navbar-brand {
-    padding: 0;
-    width: 250px;
+  /*  padding: 0;*/
+    width: 210px;
     position: absolute;
     top: 0;
 }
@@ -203,6 +203,35 @@ nav.navbar {
 }
 
 
+
+
+
+
+/*video ovelay
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.64)), to(rgba(128, 93, 93, 0.4)));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  }*/
+/* Popup container */
+
+/* Define the fading effect for the icon */
+#fadeIcon {
+    transition: opacity 0.5s; /* Adjust the duration as needed */
+  }
+  
+  /* Define the class for the faded state */
+  .fade-out {
+    opacity: 0;
+  }
+
 /* association 
 .assoc{
     position: relative; 
@@ -233,12 +262,7 @@ nav.navbar {
     overflow: hidden;
 }
 
-.video-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}*/
+*/
 /*.video-section {
     position: relative;
     width: 100%;
@@ -545,9 +569,10 @@ slider area end */
 }
 
 .img-resize2 {
-    width: 650px; /* Image takes full width of figure */
-    height: 280px; /* Maintain image aspect ratio */
+    width: 350px; /* Image takes full width of figure */
+    height: 250px; /* Maintain image aspect ratio */
 }
+
 
 .container-noreaz {
     width: 95%;
@@ -575,120 +600,55 @@ slider area end */
     margin-right: 65px;
 }
 
-/* carousel  ================ */
-
-
-  
-/*  
-  .card {
-    display: flex;
-    height: 280px;
-    width: 200px;
-    background-color: #17141d;
-    border-radius: 10px;
-    box-shadow: -1rem 0 3rem #000;
-    transition: 0.4s ease-out;
-    position: relative;
-    left: 0px;
-  }
-  
-  .card:not(:first-child) {
-      margin-left: -50px;
-  }
-  
-  .card:hover {
-    transform: translateY(-20px);
-    transition: 0.4s ease-out;
-  }
-  
-  .card:hover ~ .card {
-    position: relative;
-    left: 50px;
-    transition: 0.4s ease-out;
-  }
-  
-  .title {
-    color: white;
-    font-weight: 300;
-    position: absolute;
-    left: 20px;
-    top: 15px;
-  }
-  
-  .bar {
-    position: absolute;
-    top: 100px;
-    left: 20px;
-    height: 5px;
-    width: 150px;
-  }
-  
-  .emptybar {
-    background-color: #2e3033;
+/*agri cover*/
+#agri_cv{
+    background-image: url(img/agri_cover.png);
+    height:100vh;
     width: 100%;
-    height: 100%;
-  }
-  
-  .filledbar {
-    position: absolute;
-    top: 0px;
-    z-index: 3;
-    width: 0px;
-    height: 100%;
-    background: rgb(0,154,217);
-    background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
-    transition: 0.6s ease-out;
-  }
-  
-  .card:hover .filledbar {
-    width: 120px;
-    transition: 0.4s ease-out;
-  }
-  
-  .circle {
-    position: absolute;
-    top: 150px;
-}   */
-
-
-/*--------------------------------------------------------------
-Cards:
---------------------------------------------------------------*/
-/*
-.crd{
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     
 }
 
-.cards {
-	margin: 1em;
-	padding: 0;
-	list-style-type: none;
-}
 
-.cards a {
-	display: block;
-	margin-bottom: 1em;
-	text-decoration: none;
-}
+/* table social  ================ */
 
-.caption {
-	padding: 1em;
-	background: hsla(246, 40%, 30%, .6);
-	color: white;
-	font-size: 1.2em;
-	transition: all .4s;
-}
+th, td {
+    border-style: ridge;
+    border-color:  #8cc63f;
+    padding: 10px;
 
-a:focus .caption,
-a:hover .caption {
-	background: hsla(246, 40%, 30%, 1);
-}
 
-.caption-title {
-	margin: 0;
-	font-size: 1.4em;
-	line-height: 1.1em;
-}*/
+  }
+  
+/*====================================================
+    8. SERVICES. 
+  ====================================================*/
+  .service-box {
+    padding: 2rem 1rem;
+    border-radius: 5px;
+    margin: 1rem 0rem;
+    box-shadow: 0 0 74px rgba(10, 10, 10, 0.07);
+  }
+
+  .service-box .sb-icon {
+    width: 60px;
+    margin: auto;
+  }
+
+  .sb-caption {
+    text-align: center;
+  }
+
+  .sb-caption h4 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 10px 0px;
+  }
+  
+  
 
 .cont-box {
     display: flex;
@@ -766,47 +726,6 @@ a:hover .caption {
   }
 /*offre end*/
 
-
- /*====================================================
-      8. YOUTUBE POPUP.
-  ====================================================*/
-  .popup-youtube .video-image {
-    position: relative;
-    display: inline-block;
-  }
-
-  .popup-youtube .video-image img {
-    width: 100%
-  }
-
-  .popup-youtube .video-image:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-    background: transparent url(../img/master/play-button.png) center center no-repeat;
-  }
-
-  .popup-youtube .video-image img a:link {
-    text-decoration: none;
-    color: #FFF;
-  }
-
-  .popup-youtube .video-image img a:visited {
-    text-decoration: none;
-    color: #FFF;
-  }
-
-  .popup-youtube .video-image img a:hover {
-    text-decoration: none;
-    color: #FFF;
-  }
-
-  .popup-youtube .video-image img a:active {
-    text-decoration: none;
-    color: #FFF;
-  }
 
 /* start about us area */
 .farm-about-us {

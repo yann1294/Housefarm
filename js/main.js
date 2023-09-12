@@ -199,6 +199,21 @@
 		$('html, body').animate({scrollTop : 0},200);
 		return false;
 	});
+
+    // When the user clicks on <div>, open the popup
+    $(document).ready(function() {
+        // Add a click event listener to the icon
+        $('#fadeIcon').click(function() {
+          // Add the 'fade-out' class to the icon
+          $(this).addClass('fade-out');
+      
+          // Use setTimeout to remove the 'fade-out' class after a delay (optional)
+          setTimeout(function() {
+            $('#fadeIcon').removeClass('fade-out');
+          }, 1000); // Adjust the delay as needed
+        });
+      });
+
 	
 	/*----------------------------
 	START - WOW JS animation
