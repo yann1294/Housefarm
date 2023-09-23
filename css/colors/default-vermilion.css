@@ -1,53 +1,55 @@
 .menu li a::before {
-  background: #2E8B57 none repeat scroll 0 0;
+  background: black none repeat scroll 0 0;
 }
 .menu li.current-menu-item a {
-  color: #8cc63f;
+  color:    #DA291C;
+  font-weight: bold; /* Make the text bold */
+
 }
 .menu li a:hover {
-    color: #8cc63f;
+    color: #DA291C;
     text-decoration: underline;
 }
-.fa-pencil-square-o {
+/*.fa-pencil-square-o {
     background: #2E8B57;
 }
 .fa-pencil-square-o:hover {
     color: #2E8B57;
-}
+}*/
 .welcome-text span {
-    color: #8cc63f;
+    color:black;
 }
 h2.content-title,
 h2.content-subtitle {
     color: #808080;
 }
 .farm-home-slider-area .slick-prev.fa.fa-angle-left.slick-arrow, .farm-home-slider-area .slick-next.fa.fa-angle-right.slick-arrow{
-	color: #2E8B57;
+	color: black;
 }
 .slick-next.fa.fa-angle-right.slick-arrow:hover,
 .slick-prev.fa.fa-angle-left.slick-arrow:hover {
-    background: #2E8B57;
+    background: black;
 }
 .farm-about-us .contact-botton a {
-    background: #2E8B57;
+    background:  #DA291C;
 	box-shadow: 7px 7px 0 #ffd9cc;
 }
 
 
 .panel-heading a::before {
-    background: #2E8B57;
+    background: black
 }
 .contact-botton a:hover {
     background: #fff none repeat scroll 0 0;
-    color: #2E8B57;
+    color:  #DA291C;
 }
 .farm-about-us .contact-botton a {
-    background: #2E8B57;
+    background: #DA291C;
 }
 
 .farm-project-nav li:hover,
 .farm-project-nav li.active {
-    color: #2E8B57;
+    color:  #DA291C;
 }
 
 .single-client-btn a.client-btn {
@@ -67,5 +69,5 @@ h2.content-subtitle {
     color: #2E8B57;
 }
 .scrollToTop {
-	background: #2E8B57;
+	background: black;
 }

@@ -214,6 +214,22 @@
         });
       });
 
+
+    
+	/*----------------------------
+	MOdal stop video - 
+	------------------------------ */  
+   /* $('#myModal').on('hidden.bs.modal', function () {
+        var video = document.getElementById('modal-video');
+        video.pause();
+    });
+
+    $('#myModal').on('click', function (e) {
+        if (e.target === this) {
+            var video = document.getElementById('modal-video');
+            video.pause();
+        }
+    });*/
 	
 	/*----------------------------
 	START - WOW JS animation

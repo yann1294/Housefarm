@@ -96,7 +96,7 @@ nav.navbar {
     display: none;
 }
 .menu li a:hover {
-    color: #8cc63f;
+    color: black;
     text-decoration: underline;
 }
 /*
@@ -192,14 +192,14 @@ nav.navbar {
 .carousel-control-prev {
     margin-top: 250px;
     height: 50px;
-    background-color: #2E8B57; /* Change to your desired color */
+    background-color:  black; /* Change to your desired color */
 }
 
 .carousel-control-next {
     margin-top: 250px;
     height: 50px;
     margin-right: 50px;
-    background-color: #2E8B57; /* Change to your desired color */
+    background-color: black; /* Change to your desired color */
 }
 
 
@@ -334,7 +334,7 @@ nav.navbar {
     background: rgba(0, 0, 0, 0) url("img/welcome-bg.jpg") no-repeat scroll center center / cover;
 } */
 .welcome-text {
-    color: #fff;
+    color: #808080;
     position: relative;
     margin-bottom: 15px;
    /* color: #ff4301;
@@ -343,17 +343,21 @@ nav.navbar {
 
 /* typing effect */
 
- 
+ /*
 .wel_textCol{
     color: #2E8B57;
-}
+}*/
 
 .farm-slider-item img{
     width:100%;
 }
 
 .textGreen{
-    color: #8cc63f;
+    color: #DA291C;
+}
+
+.textBlack{
+    color: black;
 }
 
 .textGrey{
@@ -507,7 +511,7 @@ slider area end */
     line-height: 2.75em;
     height: 3em;
     padding: 0 1.618em;
-    background: #2E8B57;
+    background: black;
     border-right: 0.125rem solid #16a085;
     color: #fff;
     cursor: pointer;
@@ -570,8 +574,13 @@ slider area end */
 
 .img-resize2 {
     width: 350px; /* Image takes full width of figure */
-    height: 250px; /* Maintain image aspect ratio */
+    height: 205px; /* Maintain image aspect ratio */
 }
+
+/*.img-resize3 {
+    width: 30px; 
+    height: 20px; 
+}*/
 
 
 .container-noreaz {
@@ -602,8 +611,8 @@ slider area end */
 
 /*agri cover*/
 #agri_cv{
-    background-image: url(img/agri_cover.png);
-    height:100vh;
+    background-image: url(img/NoreA.jpg);
+    height:500px;
     width: 100%;
     background-position:center;
     background-repeat: no-repeat;
@@ -612,12 +621,68 @@ slider area end */
     
 }
 
+/*soc cover*/
+#social_cv{
+    background-image: url(img/faq-right.png);
+    height:500px;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+/*immo cover*/
+#immo_cv{
+    background-image: url(img/testimonial-bg.jpg);
+    height:500px;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#pme_cv{
+    background-image: url(img/plateforme.png);
+    height:500px;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#parti_cv{
+    background-image: url(img/participer1.png);
+    height:500px;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#gestion{
+    background-image: url(img/hope_bg.png);
+    height:500px;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
 
 /* table social  ================ */
 
 th, td {
     border-style: ridge;
-    border-color:  #8cc63f;
+ /*   border-color:  black;*/
     padding: 10px;
 
 
@@ -631,11 +696,28 @@ th, td {
     border-radius: 5px;
     margin: 1rem 0rem;
     box-shadow: 0 0 74px rgba(10, 10, 10, 0.07);
+    width: 260px;
+    height: 300px;
   }
 
   .service-box .sb-icon {
     width: 60px;
     margin: auto;
+  }
+
+  .service-box1 {
+    padding: 2rem 1rem;
+    border-radius: 5px;
+    margin: 1rem 0rem;
+    box-shadow: 0 0 74px rgba(10, 10, 10, 0.07);
+    width: 240px;
+    height: 200px;
+  }
+
+  .service-box1 .sb-icon {
+    margin-top: 5px;
+    width: 70px;
+    height: 20px;
   }
 
   .sb-caption {
@@ -705,6 +787,70 @@ th, td {
     margin-right: 15px;
 /*    justify-content: space-between;*/
   }
+
+  .card-video {
+    background-color: #fff; /*f5f5f5;*/
+    text-align: center;
+    /*padding: 20px;*/
+    border-radius: 7px;
+    border-style: ridge;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Add a smooth transition */
+    width: 300px; /* Set the desired width */
+    height: 220px; /* Set the desired height */
+    flex-direction: column;
+    padding-top: 70px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+
+/*    justify-content: space-between;*/
+  }
+  
+  .card-video:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+  }
+
+  .card-video1 {
+    background-color: #fff; /*f5f5f5;*/
+    text-align: center;
+    border-radius: 7px;
+    border-style: ridge;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Add a smooth transition */
+    width: 300px; /* Set the desired width */
+    height: 228px; /* Set the desired height */
+    flex-direction: column;
+    padding-top: 75px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+
+/*    justify-content: space-between;*/
+  }
+  
+  .card-video1:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+  }
+
+  .card-video2 {
+    background-color: #fff; /*f5f5f5;*/
+    text-align: center;
+    border-radius: 7px;
+    border-style: ridge;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Add a smooth transition */
+    width: 300px; /* Set the desired width */
+    height: 228px; /* Set the desired height */
+    flex-direction: column;
+    padding-top: 75px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+
+/*    justify-content: space-between;*/
+  }
+  
+  .card-video2:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+  }
   /*
   .img-resize {
     width: 100%;
@@ -722,7 +868,7 @@ th, td {
   }
 
   a:hover .bold-text {
-    color: #8cc63f; ;
+    color:  #DA291C;
   }
 /*offre end*/
 
@@ -734,13 +880,13 @@ th, td {
 }
 h2.content-title,
 h2.content-subtitle {
-    color: #808080;
+    color: black;
     font-size: 45px;
     margin-bottom: 20px;
 
 }
 .farm-about-content h3 {
-    color: #333333;
+    color: #808080;
    /* margin-bottom: 40px;*/
     font-size: 18px;
 }
@@ -775,8 +921,9 @@ h2.content-title {
     text-transform: capitalize;
     margin-bottom: 15px;
 }
+
 h2.content-title::before {
-    background: #f3f3f3 none repeat scroll 0 0;
+/*    background: #f3f3f3 none repeat scroll 0 0;*/
     content: "";
     height: 2px;
     margin-top: -1px;
@@ -798,10 +945,10 @@ h2.content-title::before {
 }
 .contact-botton a:hover {
     background: #fff none repeat scroll 0 0;
-    color: #2E8B57;
+    color: #DA291C;
 }
 .farm-about-us .contact-botton a {
-    background: #4B6F44;
+    background: #DA291C;
     box-shadow: 7px 7px 0 #ffd9cc;
 }
 .farm-about-us .contact-botton a:hover {
@@ -1121,7 +1268,7 @@ h2.content-title::before {
     border-radius: 50%;
     color: #fff;
     font-size: 12px;
-    background: #4B6F44;
+    background: black;
 }
 .panel-collapse.collapse.show .card-body {
     border-color: #fff !important;
@@ -1518,7 +1665,7 @@ select.porpose-select option {
     z-index: 1000;
     display: none;
     text-decoration: none;
-    background: #4B6F44;
+/*    background: #4B6F44;*/
     opacity:0.9;
     border-radius:100%;
     transition:all 0.2s;
@@ -1534,9 +1681,11 @@ select.porpose-select option {
 }
 .scrollToTop:hover {
     opacity: 1;
+    background-color: #fff;
 }
 .scrollToTop:hover .scroll-fa {
-    color:#000;
+    color:black;
+
 }
 /*scroll to top end*/
 
@@ -1556,7 +1705,7 @@ select.porpose-select option {
     z-index: 22;
 }*/
 .bg-fixed-welcome-text-content {
-    background: url(img/transparent-bgcopie.png) no-repeat center 88%;
+    background: url(img/transparent-bgcopieWhite.png) no-repeat center 88%;
     padding:230px 0px;
 }
 
