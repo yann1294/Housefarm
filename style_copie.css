@@ -198,7 +198,7 @@ nav.navbar {
 .carousel-control-next {
     margin-top: 250px;
     height: 50px;
-    margin-right: 50px;
+    margin-right: 2px;
     background-color: black; /* Change to your desired color */
 }
 
@@ -577,10 +577,12 @@ slider area end */
     height: 205px; /* Maintain image aspect ratio */
 }
 
-/*.img-resize3 {
-    width: 30px; 
-    height: 20px; 
-}*/
+
+.img-resize4 {
+    width: 180px; /* Image takes full width of figure */
+    height: 190px; /* Maintain image aspect ratio */
+}
+
 
 
 .container-noreaz {
@@ -611,7 +613,30 @@ slider area end */
 
 /*agri cover*/
 #agri_cv{
+    background-image: url(img/agriculture.jpg);
+    height:500px;
+    width: 100%;
+    margin-bottom: 40px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#agri_cv1{
     background-image: url(img/NoreA.jpg);
+    height:500px;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#agri_cv2{
+    background-image: url(img/autreExploit.png);
     height:500px;
     width: 100%;
     background-position:center;
@@ -623,7 +648,7 @@ slider area end */
 
 /*soc cover*/
 #social_cv{
-    background-image: url(img/faq-right.png);
+    background-image: url(img/fondation.jpg);
     height:500px;
     width: 100%;
     background-position:center;
@@ -635,7 +660,19 @@ slider area end */
 
 /*immo cover*/
 #immo_cv{
-    background-image: url(img/testimonial-bg.jpg);
+    background-image: url(img/imobilier-1.jpg);
+    height:500px;
+    width: 100%;
+    margin-bottom: 30px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#immo_cv1{
+    background-image: url(img/NoreA.jpg);
     height:500px;
     width: 100%;
     background-position:center;
@@ -646,7 +683,7 @@ slider area end */
 }
 
 #pme_cv{
-    background-image: url(img/plateforme.png);
+    background-image: url(img/pme.jpg);
     height:500px;
     width: 100%;
     background-position:center;
@@ -657,7 +694,7 @@ slider area end */
 }
 
 #parti_cv{
-    background-image: url(img/participer1.png);
+    background-image: url(img/commentparticiper-2.jpg);
     height:500px;
     width: 100%;
     background-position:center;
@@ -694,10 +731,10 @@ th, td {
   .service-box {
     padding: 2rem 1rem;
     border-radius: 5px;
-    margin: 1rem 0rem;
+/*    margin: 1rem 0rem;*/
     box-shadow: 0 0 74px rgba(10, 10, 10, 0.07);
-    width: 260px;
-    height: 300px;
+    width: 160px;
+    height: 200px;
   }
 
   .service-box .sb-icon {
@@ -706,18 +743,10 @@ th, td {
   }
 
   .service-box1 {
-    padding: 2rem 1rem;
+   /* padding: 2rem 1rem;*/
     border-radius: 5px;
-    margin: 1rem 0rem;
+   /* margin: 1rem 0rem;*/
     box-shadow: 0 0 74px rgba(10, 10, 10, 0.07);
-    width: 240px;
-    height: 200px;
-  }
-
-  .service-box1 .sb-icon {
-    margin-top: 5px;
-    width: 70px;
-    height: 20px;
   }
 
   .sb-caption {
@@ -725,12 +754,25 @@ th, td {
   }
 
   .sb-caption h4 {
-    font-size: 22px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 500;
+
     margin: 10px 0px;
   }
   
-  
+  .service-box2 {
+    padding: 2rem 1rem;
+    border-radius: 5px;
+/*    margin: 1rem 0rem;*/
+    box-shadow: 0 0 74px rgba(10, 10, 10, 0.07);
+    width: 160px;
+    height: 200px;
+  }
+
+  .service-box2 .sb-icon {
+    width: 60px;
+    margin: auto;
+  }
 
 .cont-box {
     display: flex;
@@ -765,13 +807,30 @@ th, td {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease; /* Add a smooth transition */
     width: 100%; /* Set the desired width */
-    height: 80%; /* Set the desired height */
+    height: 75%; /* Set the desired height */
     flex-direction: column;
 /*    justify-content: space-between;*/
   }
   
   .card:hover {
     transform: scale(1.05); /* Scale up the card on hover */
+  }
+
+  .card2 {
+    background-color: #fff; /*f5f5f5;*/
+    text-align: center;
+    /*padding: 20px;*/
+    border-radius: 0.5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Add a smooth transition */
+    width: 180px; /* Set the desired width */
+    height: 268px; /* Set the desired height */
+    flex-direction: column;
+/*    justify-content: space-between;*/
+  }
+  
+  .card2:hover {
+    transform: scale(1.07); /* Scale up the card on hover */
   }
 
   .card1 {
@@ -781,7 +840,7 @@ th, td {
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease; /* Add a smooth transition */
-    width: 560px; /* Set the desired width */
+    width: 400px; /* Set the desired width */
     height: 320px; /* Set the desired height */
     flex-direction: column;
     margin-right: 15px;
@@ -789,17 +848,15 @@ th, td {
   }
 
   .card-video {
-    background-color: #fff; /*f5f5f5;*/
+    /*background-color: #fff; f5f5f5;*/
     text-align: center;
-    /*padding: 20px;*/
     border-radius: 7px;
     border-style: ridge;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease; /* Add a smooth transition */
-    width: 300px; /* Set the desired width */
-    height: 220px; /* Set the desired height */
+    width: 340px;
+    height: 300px; 
     flex-direction: column;
-    padding-top: 70px;
     margin-left: 40px;
     margin-bottom: 20px;
 
@@ -939,7 +996,7 @@ h2.content-title::before {
     display: inline-block;
     font-size: 18px;
     padding: 12px 40px;
-    margin-top: 30px;
+    margin-top: 10px;
     transition: .4s;
     text-transform: capitalize;
 }
@@ -1759,3 +1816,18 @@ select.porpose-select option {
     background: #fff url('img/loader.gif') no-repeat center center;
 }
 /* END of Pre Loader Style */
+/* Modal Stuff */
+.custom-modal-size{
+    max-width: 80%; /* Adjust the width as needed */
+    margin: auto; /* Center the modal horizontally */
+}
+/* Custom CSS to change modal background color */
+.modal-content {
+    background-color: #000;
+}
+.close {
+    color: red;
+}
+
+/*.btn-fermer{
+}*/

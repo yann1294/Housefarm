@@ -53,20 +53,21 @@ h2.content-subtitle {
 }
 
 .single-client-btn a.client-btn {
-    background: #2E8B57 none repeat scroll 0 0;
+    background:  #DA291C none repeat scroll 0 0;
 }
 .single-client-btn a.client-btn:hover {
-    color: #2E8B57;
+    color:  #DA291C;
 }
 .single-contact:hover p {
-    color: #2E8B57;
+    color:  #DA291C;
 }
 .single-submit input {
-    background: #2E8B57 none repeat scroll 0 0;
+    background: #fff none repeat scroll 0 0;
     box-shadow: 5px 5px 0 #5c3629;
+    color: #000;
 }
 .single-submit input:hover {
-    color: #2E8B57;
+    color:  #DA291C;
 }
 .scrollToTop {
 	background: black;
