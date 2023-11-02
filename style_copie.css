@@ -18,6 +18,9 @@
  * Pre Loader Style
 **/
 
+body{width:100%;}
+
+
 /* Header area start */
 .farm-navbar-area {
     position: absolute;
@@ -121,6 +124,17 @@ nav.navbar {
 }
 
 
+/* all screens images 
+@media only screen and (max-width: 768px) {
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+  }
+  
+  @media only screen and (min-width: 992px) {
+  }
+*/
+
 /*contact vertical 
 .vertical-rl {
     writing-mode: vertical-rl;
@@ -204,8 +218,7 @@ nav.navbar {
 
 
 
-
-
+/* slide trial */
 
 /*video ovelay
 
@@ -579,8 +592,8 @@ slider area end */
 
 
 .img-resize4 {
-    width: 180px; /* Image takes full width of figure */
-    height: 190px; /* Maintain image aspect ratio */
+    width: 13.2vw; /* Image takes full width of figure */
+    height: 14vw; /* Maintain image aspect ratio */
 }
 
 
@@ -603,6 +616,14 @@ slider area end */
     margin: 0 18px 15px 0; /* Add margin to separate image from text */
 }
 
+.image-text {
+    display: none;
+}
+
+.image-container:hover .image-text {
+    display: block;
+}
+
 .valImg{
     width: 120px;
     height: 70px; 
@@ -613,10 +634,9 @@ slider area end */
 
 /*agri cover*/
 #agri_cv{
-    background-image: url(img/agriculture.jpg);
-    height:500px;
+    background-image: url(img/agriculture-2.jpg);
+    height:42vw;
     width: 100%;
-    margin-bottom: 40px;
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -648,19 +668,20 @@ slider area end */
 
 /*soc cover*/
 #social_cv{
-    background-image: url(img/fondation.jpg);
-    height:500px;
+    background-image: url(img/SOCIAL-2.jpg);
+    height:42vw;
     width: 100%;
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     
+    
 }
 
 /*immo cover*/
 #immo_cv{
-    background-image: url(img/imobilier-1.jpg);
+    background-image: url(img/immobilier-1.jpg);
     height:500px;
     width: 100%;
     margin-bottom: 30px;
@@ -672,7 +693,28 @@ slider area end */
 }
 
 #immo_cv1{
-    background-image: url(img/NoreA.jpg);
+    background-image: url(img/NoreazHeberg.jpeg);
+    height:500px;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#immo_cv2{
+    background-image: url(img/gare1.png);
+    height:500px;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#immo_cv3{
+    background-image: url(img/petitesR.png);
     height:500px;
     width: 100%;
     background-position:center;
@@ -683,18 +725,17 @@ slider area end */
 }
 
 #pme_cv{
-    background-image: url(img/pme.jpg);
-    height:500px;
+    background-image: url(img/pme-2.jpg);
+    height:42vw;
     width: 100%;
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
 }
 
 #parti_cv{
-    background-image: url(img/commentparticiper-2.jpg);
+    background-image: url(img/comment_participer-4.jpg);
     height:500px;
     width: 100%;
     background-position:center;
@@ -743,8 +784,8 @@ th, td {
   }
 
   .service-box1 {
-   /* padding: 2rem 1rem;*/
-    border-radius: 5px;
+   /* padding: 2rem 1rem;
+    border-radius: 5px;*/
    /* margin: 1rem 0rem;*/
     box-shadow: 0 0 74px rgba(10, 10, 10, 0.07);
   }
@@ -789,25 +830,24 @@ th, td {
   .cards {
     list-style: none;
     padding: 0;
-    margin: 50px;
-    margin-bottom: 40px;
+    margin: 20px;
+    margin-bottom: 8vw;
     display: flex; /* Display children side by side */
   }
   
   .card-item {
     flex: 1; /* Distribute available space equally among items */
-    padding: 0 10px; /* Add spacing between cards */
+    padding: 0 1.52vw; /* Add spacing between cards */
   }
   
   .card {
     background-color: #fff; /*f5f5f5;*/
     text-align: center;
-    /*padding: 20px;*/
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease; /* Add a smooth transition */
     width: 100%; /* Set the desired width */
-    height: 75%; /* Set the desired height */
+    height: 65%; /* Set the desired height */
     flex-direction: column;
 /*    justify-content: space-between;*/
   }
@@ -819,12 +859,12 @@ th, td {
   .card2 {
     background-color: #fff; /*f5f5f5;*/
     text-align: center;
-    /*padding: 20px;*/
-    border-radius: 0.5px;
+    /*padding: 20px;
+    border-radius: 5px;*/
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease; /* Add a smooth transition */
-    width: 180px; /* Set the desired width */
-    height: 268px; /* Set the desired height */
+    width: 106%; /* Set the desired width */
+    height: 77%; /* Set the desired height */
     flex-direction: column;
 /*    justify-content: space-between;*/
   }
@@ -914,6 +954,46 @@ th, td {
     height: auto;
   } */
   
+  .card-video3 {
+    background-color: #fff; /*f5f5f5;*/
+    text-align: center;
+    border-radius: 7px;
+    border-style: ridge;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Add a smooth transition */
+    width: 27vw; 
+    height: 15vw; 
+    flex-direction: column;
+/*    margin-left: 40px;
+    margin-bottom: 60px;*/
+
+/*    justify-content: space-between;*/
+  }
+  
+  .card-video3:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+  }
+
+  .card-video4 {
+    background-color: #fff; /*f5f5f5;*/
+    text-align: center;
+    border-radius: 7px;
+    border-style: ridge;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Add a smooth transition */
+    /*width: 320px; 
+    height: 128px; */
+    flex-direction: column;
+/*    margin-left: 40px;
+    margin-bottom: 60px;*/
+
+/*    justify-content: space-between;*/
+  }
+  
+  .card-video4:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+  }
+
   .caption {
 /*    background: hsla(246, 40%, 30%, .6);*/
     color: #808080; 
@@ -942,6 +1022,12 @@ h2.content-subtitle {
     margin-bottom: 20px;
 
 }
+h3.content-title,
+h3.content-subtitle {
+    color: black;
+    font-size: 1.5em;
+}
+
 .farm-about-content h3 {
     color: #808080;
    /* margin-bottom: 40px;*/
@@ -973,9 +1059,10 @@ h2.content-subtitle {
     margin-bottom: 20px;
     font-size: 18px;
 }
+
 h2.content-title {
     position: relative;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     margin-bottom: 15px;
 }
 
@@ -1762,8 +1849,8 @@ select.porpose-select option {
     z-index: 22;
 }*/
 .bg-fixed-welcome-text-content {
-    background: url(img/transparent-bgcopieWhite.png) no-repeat center 88%;
-    padding:230px 0px;
+    background: url(img/transparent-bgcopieWhite.png) no-repeat center ;
+    padding: 11.979166666667vw  0vw; 
 }
 
 /* Only-Image-slider-with-fixed-Text css */
@@ -1818,7 +1905,7 @@ select.porpose-select option {
 /* END of Pre Loader Style */
 /* Modal Stuff */
 .custom-modal-size{
-    max-width: 80%; /* Adjust the width as needed */
+    max-width: 95%; /* Adjust the width as needed */
     margin: auto; /* Center the modal horizontally */
 }
 /* Custom CSS to change modal background color */
